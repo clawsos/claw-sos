@@ -49,7 +49,7 @@
 export TERM="${TERM:-xterm}"
 set -uo pipefail
 
-SOS_VERSION="6.1"
+SOS_VERSION="6.1.1"
 OS_TYPE="linux"
 [[ "$(uname -s)" == "Darwin" ]] && OS_TYPE="macos"
 
