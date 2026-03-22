@@ -25,19 +25,19 @@ sos
 **One line:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/clawtools/claw-sos/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/clawsos/claw-sos/main/install.sh | bash
 ```
 
 Or with wget:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/clawtools/claw-sos/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/clawsos/claw-sos/main/install.sh | bash
 ```
 
 **Manual:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/clawtools/claw-sos/main/sos.sh -o /usr/local/bin/sos
+curl -fsSL https://raw.githubusercontent.com/clawsos/claw-sos/main/sos.sh -o /usr/local/bin/sos
 chmod +x /usr/local/bin/sos
 ```
 
@@ -149,7 +149,7 @@ Rollback restores both the config file AND the OpenClaw version.
 ## Uninstall
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/clawtools/claw-sos/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/clawsos/claw-sos/main/uninstall.sh | bash
 ```
 
 Or manually:
@@ -188,4 +188,4 @@ MIT — see [LICENSE](LICENSE)
 
 ---
 
-Built by the [Claw Tools](https://github.com/clawtools) community.
+Built by the [ClawSOS](https://github.com/clawsos) community.

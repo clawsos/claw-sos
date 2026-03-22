@@ -2,12 +2,12 @@
 # ═══════════════════════════════════════════════════════════════
 # Claw-SOS Installer
 # ═══════════════════════════════════════════════════════════════
-# Usage: curl -fsSL https://raw.githubusercontent.com/clawtools/claw-sos/main/install.sh | bash
-# Or:    wget -qO- https://raw.githubusercontent.com/clawtools/claw-sos/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/clawsos/claw-sos/main/install.sh | bash
+# Or:    wget -qO- https://raw.githubusercontent.com/clawsos/claw-sos/main/install.sh | bash
 
 set -euo pipefail
 
-REPO="clawtools/claw-sos"
+REPO="clawsos/claw-sos"
 BRANCH="main"
 INSTALL_DIR="/usr/local/bin"
 SCRIPT_NAME="sos"
